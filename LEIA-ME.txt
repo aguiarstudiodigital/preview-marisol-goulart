@@ -1,0 +1,47 @@
+VERSÃO 3.5 — Ajuste de legibilidade da marca (monograma sem círculo do Instagram)
+
+ASD | MARISOL GOULART | V3.1 — REFINAMENTO MOBILE E EDITORIAL
+
+Base: V3 aprovada. Estrutura de quatro blocos, hero e vídeos originais mantidos.
+
+ALTERAÇÕES
+- Textos reduzidos conforme proposta aprovada; informações comerciais preservadas.
+- Tamanhos e contraste de textos pequenos elevados, sobretudo no mobile.
+- Retrato muito fechado substituído por outra imagem REAL de Marisol já presente na V3 (original_3.jpg). O look off-white editorial continua uma referência para futuro ensaio real; não foi criada imagem falsa de Marisol.
+- Foto Moda & Compras mantida de fonte real; cabeçalho de Instagram cortado e enquadramento sem recorte corporal via object-fit:contain.
+- Menu original preservado, com melhorias de legibilidade, animação e navegação por teclado, além de ajustes em telas baixas.
+- Formulário e links originais preservados. FormSubmit destinatário: contato@aguiarstudiodigital.com.
+
+FORMULÁRIO — ATIVAÇÃO E TESTE REAL
+1. Abra a preview em navegador com internet.
+2. Preencha o formulário com dados de teste e envie.
+3. O FormSubmit pode solicitar confirmação ao destinatário por e-mail. Confirme usando a caixa contato@aguiarstudiodigital.com.
+4. Repita o teste após a ativação e CONFIRME o recebimento na caixa de entrada/spam. Resposta HTTP não comprova entrega.
+5. Só depois marque como validado. Antes da publicação definitiva, revisar política de privacidade/LGPD e destino.
+6. Para mudar o destinatário: edite o atributo action do formulário em index.html. No HTML independente, o mesmo atributo está presente.
+
+STATUS DOS TESTES
+- Estrutura e integridade do pacote: checagem automatizada.
+- JavaScript: sintaxe verificada com node --check.
+- Entrega real do FormSubmit: NÃO TESTADA (requer acesso ao e-mail do destinatário).
+- Links externos: endereços mantidos, abertura real não garantida.
+- Publicação GitHub/HostGator: NÃO REALIZADA.
+
+Para testar localmente: abra ASD_Marisol_Goulart_V3_1_Preview_Interativa.html no Chrome.
+Para publicar futuramente: use index.html e pastas assets, css, js na raiz da hospedagem.
+
+
+V3.2 — AJUSTES
+- Removidos avisos visíveis de prévia (rodapé, flutuante e formulário); não há alteração no status real de ativação do FormSubmit.
+- Menu reduzido ao ícone de duas linhas, sem moldura e com botão acessível de 48px.
+- A Essência: imagem original fornecida (107778.png) convertida em JPEG de alta qualidade, sem cortes.
+- Moda & Compras: imagem integral disponível, sem cortes adicionais; a fotografia de origem já termina antes dos pés.
+- Título da seção: Moda, encontros e conexões.
+- NÃO considerar envio de formulário testado ou ativado sem submissão real e confirmação na caixa de e-mail.
+
+V3.3 — NOVA FOTO EM MODA & COMPRAS
+- A imagem cortada foi substituída por RECRIAÇÃO CONCEITUAL editorial de corpo inteiro.
+- NÃO é um frame do vídeo 111081.mp4, que contém elementos de interface sobrepostos.
+- A imagem foi gerada digitalmente e não deve ser apresentada como foto real de Marisol sem aprovação.
+- Imagem original, vídeos, menu, formulário e demais seções mantidos.
+- Sem publicação. Formulário ainda requer teste real.

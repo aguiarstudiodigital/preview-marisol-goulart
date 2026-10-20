@@ -1,0 +1,4 @@
+# V3.4 — Prévia pública para aprovação, mas com noindex nas páginas HTML.
+# Não bloquear o rastreamento aqui: os mecanismos precisam ler o noindex.
+User-agent: *
+Allow: /
