@@ -1,3 +1,9 @@
+VERSÃO 3.9 — refinamento mobile e consistência de contatos
+
+Ajustes: indicador de rolagem visível no celular, título Vamos nos conectar sem link e parcerias com e-mail pré-preenchido em ambos os acessos.
+
+IMPORTANTE: FormSubmit ainda precisa de teste real de entrega. Prévia permanece com noindex. Não atualizar SEO/indexação até domínio definitivo.
+
 VERSÃO 3.5 — Ajuste de legibilidade da marca (monograma sem círculo do Instagram)
 
 ASD | MARISOL GOULART | V3.1 — REFINAMENTO MOBILE E EDITORIAL
@@ -45,3 +51,5 @@ V3.3 — NOVA FOTO EM MODA & COMPRAS
 - A imagem foi gerada digitalmente e não deve ser apresentada como foto real de Marisol sem aprovação.
 - Imagem original, vídeos, menu, formulário e demais seções mantidos.
 - Sem publicação. Formulário ainda requer teste real.
+
+V3.11: correção pontual de enquadramento da hero no desktop (topo preservado). Mobile e conteúdo inalterados.

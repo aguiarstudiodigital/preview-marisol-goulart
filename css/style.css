@@ -113,3 +113,73 @@
 .site-header.menu-open .brand img{filter:drop-shadow(0 1px 5px rgba(0,0,0,.16))}
 @media(max-width:700px){.brand{gap:9px}.brand img{width:60px;height:51px}.brand small{letter-spacing:.20em}}
 @media(max-width:390px){.brand img{width:53px;height:47px}.brand{gap:7px}}
+
+
+/* V3.7 — navegação editorial depurada, sem numeração ou CTAs redundantes. */
+/* A hero deve caber na altura visível mesmo em desktops com viewport inferior a 760px. */
+.hero{min-height:min(760px,100svh)}
+.hero-bottom{bottom:clamp(55px,8svh,94px);font-size:11px;letter-spacing:.17em;pointer-events:none}
+.hero-bottom>span{display:inline-flex;align-items:center;gap:10px;text-shadow:0 2px 10px rgba(0,0,0,.35)}
+.hero-bottom span span{margin-left:0;font-size:17px}
+/* Menu continua em tela cheia, mas com hierarquia e respiro mais contidos. */
+.menu-inner{padding-top:clamp(112px,16svh,165px);padding-bottom:clamp(26px,5svh,50px)}
+.menu-links{width:min(100%,880px);margin:15px 0 35px}
+.menu-links a{font-size:clamp(38px,4.9vw,70px);line-height:1.03;padding:10px 0;gap:18px}
+.menu-links a b{font-size:17px;line-height:1;color:#b99e84;align-self:center}
+.menu-bottom{justify-content:flex-end;margin-top:auto}
+.menu-bottom a{display:inline-flex;align-items:center;min-height:30px}
+@media(max-width:700px){
+  .hero{min-height:min(640px,100svh)}
+  .hero-inner{padding-bottom:110px}
+  .hero-bottom{bottom:clamp(38px,6svh,62px);left:24px;right:24px;font-size:10px}
+  .menu-inner{padding:clamp(96px,13svh,135px) 25px 34px}
+  .menu-links{margin:10px 0 28px}
+  .menu-links a{font-size:clamp(37px,9.3vw,56px);padding:12px 0;line-height:1.05}
+  .menu-links a b{font-size:15px}
+  .menu-bottom{margin-top:auto}
+}
+@media(max-height:680px){
+  .hero-inner{padding-top:90px;padding-bottom:75px}
+  .hero-bottom{bottom:30px}
+  .menu-inner{padding-top:96px;padding-bottom:22px}
+  .menu-links{margin:8px 0 18px}
+  .menu-links a{font-size:clamp(34px,4.6vw,55px);padding:7px 0}
+}
+@media(max-height:680px) and (max-width:700px){
+  .hero-inner{padding-bottom:95px}
+  .hero-bottom{bottom:25px}
+  .menu-links a{font-size:clamp(33px,8vw,46px)}
+}
+
+/* V3.8 — encerramento editorial mais discreto, sem wordmark duplicado */
+.footer{padding-top:32px;padding-bottom:48px}
+.footer-top{justify-content:flex-end}
+.footer-bottom{margin-top:25px}
+@media(max-width:700px){.footer{padding-top:28px;padding-bottom:45px}.footer-bottom{margin-top:22px}}
+
+
+/* ASD V3.9 — hero mobile legível, contato editorial sem link redundante. */
+.contact-main-link{font-weight:400;cursor:default}
+@media(max-width:700px){
+  /* Corrige a regra antiga que ocultava o único span do indicador. */
+  .hero-bottom>span:last-child{display:inline-flex}
+  .hero-bottom{bottom:clamp(44px,7svh,84px);left:24px;right:24px;font-size:11px;letter-spacing:.14em}
+  .hero-bottom>span{gap:10px}
+  .hero-inner{padding-bottom:clamp(135px,18svh,185px)}
+  .hero-sub{margin-bottom:0}
+}
+@media(max-width:700px) and (max-height:680px){
+  .hero-inner{padding-bottom:130px}
+  .hero-bottom{bottom:34px}
+}
+
+/* ASD V3.10 — enquadramento da hero desktop: preservar o topo do vídeo.
+   A correção não altera altura da hero, textos ou versão mobile. */
+@media (min-width:701px){
+  .hero-video{object-position:center top}
+  .hero-poster{background-position:center top}
+}
+
+/* ASD V3.11 — fotografia original do encontro, sem faixas pretas ou filtro de cor. */
+.feature-event .event-visual img{object-position:center center;filter:none}
+@media(max-width:700px){.feature-event .event-visual img{object-position:center center}}
